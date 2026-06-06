@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.FRONTEND_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/assessment-Task-Wexa-ai
+            cd /home/ubuntu/wexa-ai-frontend-pms
 
             git fetch origin
             git reset --hard origin/main
