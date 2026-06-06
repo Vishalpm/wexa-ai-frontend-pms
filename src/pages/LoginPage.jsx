@@ -50,7 +50,7 @@ export default function LoginPage() {
           <div className="w-8 h-8 rounded-xl bg-amber-400 flex items-center justify-center">
             <Zap size={16} className="text-black fill-black" />
           </div>
-          <span className="text-base font-semibold text-[#e2e6f0]">StockFlow Added CI/CD</span>
+          <span className="text-base font-semibold text-[#e2e6f0]">StockFlow (CI/CD)</span>
         </div>
 
         <h1 className="text-2xl font-semibold text-[#e2e6f0] mb-1">Welcome back</h1>
