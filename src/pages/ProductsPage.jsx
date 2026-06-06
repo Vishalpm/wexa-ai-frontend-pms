@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Plus, Search, Package, Pencil, Trash2, ArrowUpDown } from 'lucide-react'
+import { Plus, Search, Package, Pencil, Trash2 } from 'lucide-react'
 import { productsApi } from '../api'
 import { formatCurrency, formatNumber, getError } from '../lib/utils'
 import Badge from '../components/ui/Badge'

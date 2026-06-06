@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import {
   ChevronLeft, Pencil, Trash2, ArrowUpDown, Package,
-  DollarSign, Tag, AlignLeft, AlertTriangle
+  DollarSign, AlignLeft, AlertTriangle
 } from 'lucide-react'
 import { productsApi } from '../api'
 import { formatCurrency, formatNumber, getError } from '../lib/utils'

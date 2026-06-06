@@ -110,7 +110,7 @@ export default function DashboardPage() {
               </tr>
             </thead>
             <tbody>
-              {lowStockItems.map((item, i) => (
+              {lowStockItems.map((item) => (
                 <tr
                   key={item.id}
                   className={`border-b border-[#232832] last:border-0 hover:bg-white/[0.02] transition-colors`}
